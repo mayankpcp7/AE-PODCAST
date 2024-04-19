@@ -52,7 +52,9 @@
 .space_crd_para {
   margin-top: 28px;
 }
-
+.nav_options:hover {
+  color: #03a9f4;
+}
 .card_main {
   width: 100%;
   max-width: 450px;
@@ -66,7 +68,13 @@
   align-items: center;
   text-align: center;
 }
-
+.card_main:hover {
+  box-shadow: 0px 0px 20px 4px #dadadaa1;
+}
+.pi_right_ellipse {
+  top: -90%;
+  right: 0%;
+}
 .box_hdr {
   margin-top: 35px;
   width: 321px;
@@ -544,6 +552,7 @@ a:hover {
   top: 50%;
   right: 0;
   max-height: 484px;
+  z-index: 3;
 }
 
 .chances_left_vector {
@@ -997,7 +1006,9 @@ a:hover {
   .poadcasting_p {
     padding: 0px 0px 110px 0px;
   }
-
+  .podcast_compare_section {
+    padding: 0px 0px 86px 0px;
+  }
   .impactful_card {
     padding: 50px 37px;
     transform: translateY(58%);
@@ -1040,6 +1051,32 @@ a:hover {
 
   .d_none {
     display: none;
+  }
+  .activity_establish_sec {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+  .layer_img {
+    z-index: -3;
+    width: 49%;
+    top: -18%;
+    left: 25%;
+  }
+  .accordion {
+    max-width: 664px;
+  }
+  .space_overall {
+    padding-bottom: 110px;
+  }
+  .take_quiz {
+    padding: 86px 0px;
+  }
+  .ph_hosting {
+    max-width: 668px;
+  }
+  .line_right_podcast_table {
+    max-width: 85px;
+    top: -132px;
   }
 }
 @media (max-width: 767.98px) {
@@ -1093,8 +1130,24 @@ a:hover {
   .space_overall {
     padding-top: 24px;
   }
+  .accordion {
+    max-width: 504px;
+  }
+  .ph_provider_sec {
+    padding-top: 90px;
+  }
 }
 @media (max-width: 575.98px) {
+  .chances_bottom_ellipse {
+    bottom: -20%;
+    left: 0%;
+  }
+  .frequently_asked {
+    font-size: 28px;
+  }
+  .ph_hosting {
+    font-size: 24px;
+  }
   .card_main {
     height: auto;
   }
