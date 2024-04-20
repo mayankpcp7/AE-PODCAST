@@ -117,7 +117,7 @@
 .nav_line {
   background: #e0e0e0;
   width: 100%;
-  height: 2px;
+  height: 1px;
 }
 
 .bttn_rsg {
@@ -125,9 +125,10 @@
   border-radius: 100px;
   border: none;
   background-color: #6f69f2;
-  padding: 10px 25px;
+  padding: 10px 21px;
   transition: all 350ms linear;
   border: 1px solid transparent;
+  width: 107px;
 }
 
 .bttn_rsg:hover {
@@ -758,7 +759,10 @@ a:hover {
 }
 
 .activity_establish_chart {
-  max-width: 573px;
+  max-width: 573px !important ;
+}
+.mw_145 {
+  max-width: 145px !important;
 }
 
 .activity_establish_sec {
@@ -769,12 +773,20 @@ a:hover {
 .less_than {
   max-width: 525px;
 }
-
+.gap_24 {
+  gap: 24px;
+}
 .host_box {
   box-shadow: 0px 0px 107px 0px rgba(0, 0, 0, 0.1);
   border-radius: 9.5px;
   width: 139px;
   height: 80px;
+}
+.podcast_lines {
+  top: -10% !important;
+}
+.podcast_ellipse {
+  bottom: -10% !important;
 }
 
 .hosts {
@@ -951,18 +963,27 @@ a:hover {
 .start_btn_hover:hover {
   transform: scale(1.1);
 }
-
+.pt_lg_62 {
+  padding-top: 62px;
+}
 /*=================================== media-screen =====================================*/
 @media (max-width: 1198.98px) {
+  .pt_lg_62 {
+    padding-top: 22px;
+  }
   .card_main {
     height: 282px;
   }
 }
 @media (max-width: 991.98px) {
+  .pt_lg_62 {
+    padding-top: 0px;
+  }
   .dropbtn,
   .bttn_login_sm,
   .bttn_rsg_sm {
     font-size: 20px !important;
+    width: auto;
   }
 
   .card_main {
